@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Received! | Joy Gitonga</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="success-container">
+        <div class="success-icon-box">
+            <i class="fas fa-rocket"></i>
+        </div>
+        
+        <h1>Message Sent Successfully!</h1>
+        <p>
+            Thank you so much for reaching out! I am incredibly enthusiastic about connecting, exploring new tech horizons, and turning complex ideas into functional code.
+        </p>
+        <p style="font-size: 1.5rem; margin-top: -2rem; font-weight: 500; color: var(--primary);">
+            <i class="fas fa-bolt"></i> I will review your details and get back to you immediately!
+        </p>
+        
+        <div class="success-action">
+            <a href="index.html" class="btn"><i class="fas fa-arrow-left"></i> Back To Portfolio</a>
+        </div>
+    </div>
+
+    <script>
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            document.documentElement.setAttribute('data-theme', savedTheme);
+        }
+    </script>
+</body>
+</html>
